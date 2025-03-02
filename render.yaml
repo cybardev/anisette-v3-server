@@ -8,3 +8,4 @@ services:
   region: ohio
   dockerContext: .
   dockerfilePath: ./Dockerfile
+  autoDeploy: false
