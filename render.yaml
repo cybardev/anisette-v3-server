@@ -2,10 +2,9 @@ version: "1"
 services:
 - type: web
   name: anisette-v3-server
-  runtime: docker
-  repo: https://github.com/cybardev/anisette-v3-server
+  runtime: image
+  image:
+    url: dadoum/anisette-v3-server
   plan: free
   region: ohio
-  dockerContext: .
-  dockerfilePath: ./Dockerfile
   autoDeploy: false
